@@ -43,8 +43,7 @@ public class Ornek_AmazonKayitSayfasi extends TestBase  {    // DAY 14 - 6 Eylü
         driver.findElement(By.id("ap_password")).sendKeys("Amazon06.");
         driver.findElement(By.id("ap_password_check")).sendKeys("Amazon06.");
         driver.findElement(By.id("continue")).click();
-
-
+        
     }
 
 }

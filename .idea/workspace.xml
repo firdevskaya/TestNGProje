@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_AmazonKayitSayfasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WindowHandleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FileDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSAlertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSAlertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/IframeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/IframeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSAlertTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/JSAlertTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/ActionClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_AmazonKayitSayfasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_AmazonKayitSayfasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/ActionClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Ornek_AmazonKayitSayfasi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Ornek_AmazonKayitSayfasi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +46,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.Ornek_AmazonKayitSayfasi.test02">
-    <configuration name="ActionClassTest.asagiYukari" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WaitTest.implicitlyWait">
+    <configuration name="FileDownloadTest.dosyaDownload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +56,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ActionClassTest" />
-      <option name="METHOD_NAME" value="asagiYukari" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
+      <option name="METHOD_NAME" value="dosyaDownload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionClassTest.hoverOver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadTest.dosyaUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +74,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.ActionClassTest" />
-      <option name="METHOD_NAME" value="hoverOver" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
+      <option name="METHOD_NAME" value="dosyaUpload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek_AmazonKayitSayfasi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadTest.dosyaVarMi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +92,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FileDownloadTest" />
+      <option name="METHOD_NAME" value="dosyaVarMi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek_AmazonKayitSayfasi.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest.implicitlyWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -110,26 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ornek_AmazonKayitSayfasi.test02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
+      <option name="METHOD_NAME" value="implicitlyWait" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi.test02" />
-        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi" />
-        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi.test01" />
-        <item itemvalue="TestNG.ActionClassTest.asagiYukari" />
-        <item itemvalue="TestNG.ActionClassTest.hoverOver" />
+        <item itemvalue="TestNG.WaitTest.implicitlyWait" />
+        <item itemvalue="TestNG.WaitTest" />
+        <item itemvalue="TestNG.FileDownloadTest.dosyaDownload" />
+        <item itemvalue="TestNG.FileDownloadTest.dosyaUpload" />
+        <item itemvalue="TestNG.FileDownloadTest.dosyaVarMi" />
       </list>
     </recent_temporary>
   </component>
@@ -173,30 +172,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="156" key="GridCell.Tab.0.bottom" timestamp="1599423585304">
+    <state width="1322" height="404" key="GridCell.Tab.0.bottom" timestamp="1599509311485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599423585304" />
-    <state width="1322" height="156" key="GridCell.Tab.0.center" timestamp="1599423585303">
+    <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599509311485" />
+    <state width="1322" height="404" key="GridCell.Tab.0.center" timestamp="1599509311485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="156" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599423585303" />
-    <state width="1322" height="156" key="GridCell.Tab.0.left" timestamp="1599423585303">
+    <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599509311485" />
+    <state width="1322" height="404" key="GridCell.Tab.0.left" timestamp="1599509311485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="156" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599423585303" />
-    <state width="1322" height="156" key="GridCell.Tab.0.right" timestamp="1599423585303">
+    <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599509311485" />
+    <state width="1322" height="404" key="GridCell.Tab.0.right" timestamp="1599509311485">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="156" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599423585303" />
+    <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599509311485" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1599419374302">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1599487130643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599419374302" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599487130643" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599390699825" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">
       <screen x="0" y="0" width="1366" height="728" />
