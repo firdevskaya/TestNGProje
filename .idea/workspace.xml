@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_HotelOlusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/Ornek_WebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTablesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WaitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Ornek_HotelOlusturma.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/Ornek_HotelOlusturma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.Ornek_HotelOlusturma.hotelCreate">
-    <configuration name="Ornek_AmazonKayitSayfasi01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Ornek_WebTable.test">
+    <configuration name="Ornek_WebTable.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -55,25 +57,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ornek_AmazonKayitSayfasi01.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_AmazonKayitSayfasi01" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_WebTable" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek_HotelOlusturma.hotelCreate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTablesTest.belirliBirSutunYazdirma" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +75,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_HotelOlusturma" />
-      <option name="METHOD_NAME" value="hotelCreate" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTablesTest" />
+      <option name="METHOD_NAME" value="belirliBirSutunYazdirma" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTablesTest.calistir" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +93,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
-      <option name="METHOD_NAME" value="explicitWait" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTablesTest" />
+      <option name="METHOD_NAME" value="calistir" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTest.implicitlyWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTablesTest.tumHucreler" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +111,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WaitTest" />
-      <option name="METHOD_NAME" value="implicitlyWait" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTablesTest" />
+      <option name="METHOD_NAME" value="tumHucreler" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTest.tumSatirlar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.WebTablesTest" />
+      <option name="METHOD_NAME" value="tumSatirlar" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Ornek_HotelOlusturma.hotelCreate" />
-        <item itemvalue="TestNG.WaitTest.explicitWait" />
-        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi01.test2" />
-        <item itemvalue="TestNG.Ornek_AmazonKayitSayfasi01" />
-        <item itemvalue="TestNG.WaitTest.implicitlyWait" />
+        <item itemvalue="TestNG.Ornek_WebTable.test" />
+        <item itemvalue="TestNG.WebTablesTest.calistir" />
+        <item itemvalue="TestNG.WebTablesTest.belirliBirSutunYazdirma" />
+        <item itemvalue="TestNG.WebTablesTest.tumHucreler" />
+        <item itemvalue="TestNG.WebTablesTest.tumSatirlar" />
       </list>
     </recent_temporary>
   </component>
@@ -174,34 +177,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="305" key="GridCell.Tab.0.bottom" timestamp="1599595460269">
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1599682609191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="305" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599595460269" />
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599682609191" />
     <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
-    <state width="1322" height="305" key="GridCell.Tab.0.center" timestamp="1599595460268">
+    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1599682609190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="305" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599595460268" />
+    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599682609190" />
     <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="305" key="GridCell.Tab.0.left" timestamp="1599595460268">
+    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1599682609190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="305" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599595460268" />
+    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599682609190" />
     <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="305" key="GridCell.Tab.0.right" timestamp="1599595460268">
+    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1599682609190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="305" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599595460268" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599682609190" />
     <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1599572827187">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1599672330965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599572827187" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599672330965" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599530286042" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">
       <screen x="0" y="0" width="1366" height="728" />
