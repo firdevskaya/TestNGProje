@@ -16,7 +16,6 @@ public class FhcTripLoginTest extends TestBase {
         loginPage.userNameKutusu.sendKeys("manager2");
         loginPage.passwordKutusu.sendKeys("Man1ager2!");
         loginPage.loginButonu.click();
-
     }
 
 }
