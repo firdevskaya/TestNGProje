@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FacebookLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/FacebookLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/FhcTripLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcTripHotelRoomCreatePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/FhcTripHotelRoomCreateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/AmazonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripHotelCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripHotelCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/WebTablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripHotelCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripHotelCreateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripLoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTablesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/WebTablesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.FhcTripLoginTest.test (1)">
-    <configuration name="AmazonTest.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.AmazonTest" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.FhcTripHotelRoomCreateTest.test01">
     <configuration name="FacebookLoginTest.girisTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
@@ -102,6 +75,24 @@
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="com.techproed.tests.FhcTripHotelCreateTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FhcTripHotelRoomCreateTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.smoketests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FhcTripHotelRoomCreateTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FhcTripHotelRoomCreateTest.test01" />
         <item itemvalue="TestNG.FhcTripLoginTest.test (1)" />
         <item itemvalue="TestNG.FacebookLoginTest.girisTesti" />
         <item itemvalue="TestNG.FhcTripHotelCreateTest.test" />
         <item itemvalue="TestNG.FhcTripLoginTest.test" />
-        <item itemvalue="TestNG.AmazonTest.aramaTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -184,34 +175,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="235" key="GridCell.Tab.0.bottom" timestamp="1599854404127">
+    <state width="1322" height="235" key="GridCell.Tab.0.bottom" timestamp="1600028467309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599854404127" />
+    <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600028467309" />
     <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
-    <state width="1322" height="235" key="GridCell.Tab.0.center" timestamp="1599854404126">
+    <state width="1322" height="235" key="GridCell.Tab.0.center" timestamp="1600028467308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599854404126" />
+    <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600028467308" />
     <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="235" key="GridCell.Tab.0.left" timestamp="1599854404126">
+    <state width="1322" height="235" key="GridCell.Tab.0.left" timestamp="1600028467308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599854404126" />
+    <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600028467308" />
     <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="235" key="GridCell.Tab.0.right" timestamp="1599854404126">
+    <state width="1322" height="235" key="GridCell.Tab.0.right" timestamp="1600028467308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599854404126" />
+    <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600028467308" />
     <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1599844194383">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600024730386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599844194383" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600024730386" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599530286042" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">
       <screen x="0" y="0" width="1366" height="728" />
