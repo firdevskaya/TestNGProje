@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbSignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/GlbSignUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/WriteExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ULKELER.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/FacebookLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/FacebookLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketests/FacebookLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketests/FacebookLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +45,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.GlbSignUpTest.test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\isimsiz\IdeaProjects\TestNGProje\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.WriteExcel.test">
     <configuration name="FacebookLoginTest.bos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
@@ -60,24 +65,6 @@
       <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
       <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FacebookLoginTest" />
       <option name="METHOD_NAME" value="bos" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FacebookLoginTest.girisTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FacebookLoginTest" />
-      <option name="METHOD_NAME" value="girisTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,24 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FhcTripLoginTest.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FhcTripLoginTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GlbSignUpTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
@@ -139,13 +108,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.excelautomation.ReadExcel" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.excelautomation.WriteExcel" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WriteExcel.test" />
+        <item itemvalue="TestNG.ReadExcel.test" />
         <item itemvalue="TestNG.GlbSignUpTest.test" />
         <item itemvalue="TestNG.FacebookLoginTest.bos" />
         <item itemvalue="TestNG.FhcTripHotelRoomCreateTest.test01" />
-        <item itemvalue="TestNG.FhcTripLoginTest.test (1)" />
-        <item itemvalue="TestNG.FacebookLoginTest.girisTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -178,38 +183,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="324" key="GridCell.Tab.0.bottom" timestamp="1600114647156">
+    <state width="1322" height="273" key="GridCell.Tab.0.bottom" timestamp="1600201083250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="324" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600114647156" />
+    <state width="1322" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
     <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
     <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
-    <state width="1322" height="324" key="GridCell.Tab.0.center" timestamp="1600114647155">
+    <state width="1322" height="273" key="GridCell.Tab.0.center" timestamp="1600201083250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="324" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600114647155" />
+    <state width="1322" height="273" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
     <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
     <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="324" key="GridCell.Tab.0.left" timestamp="1600114647155">
+    <state width="1322" height="273" key="GridCell.Tab.0.left" timestamp="1600201083249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="324" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600114647155" />
+    <state width="1322" height="273" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083249" />
     <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
     <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="324" key="GridCell.Tab.0.right" timestamp="1600114647156">
+    <state width="1322" height="273" key="GridCell.Tab.0.right" timestamp="1600201083250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="324" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600114647156" />
+    <state width="1322" height="273" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
     <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
     <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600104182716">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600195244942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600104182716" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600195244942" />
     <state x="1756" y="200" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600091464475" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599530286042" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">
