@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ULKELER.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirliclasscalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirligrupmethodlarinicalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirlimethodcalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketestspaketicalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBaseFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tumtestlericalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/excelautomation/WriteExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/GlbSignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/smoketests/GlbSignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripHotelCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripHotelCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/FhcTripLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ULKELER.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ULKELER.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketests/GlbSignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/smoketests/GlbSignUpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripHotelCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripHotelCreateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/tests/FhcTripLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,99 +59,61 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/techproed/utilities" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\isimsiz\IdeaProjects\TestNGProje\src\test\java\com\techproed\utilities" />
+      <recent name="C:\Users\isimsiz\IdeaProjects\TestNGProje" />
       <recent name="C:\Users\isimsiz\IdeaProjects\TestNGProje\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WriteExcel.test">
-    <configuration name="FacebookLoginTest.bos" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/belirligrupmethodlarinicalistirma.xml">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/belirliclasscalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FacebookLoginTest" />
-      <option name="METHOD_NAME" value="bos" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliclasscalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FhcTripHotelRoomCreateTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/belirligrupmethodlarinicalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.FhcTripHotelRoomCreateTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirligrupmethodlarinicalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlbSignUpTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/belirlimethodcalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.smoketests.GlbSignUpTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirlimethodcalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/smoketestspaketicalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.excelautomation.ReadExcel" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketestspaketicalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteExcel.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/tumtestlericalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.excelautomation.WriteExcel" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tumtestlericalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WriteExcel.test" />
-        <item itemvalue="TestNG.ReadExcel.test" />
-        <item itemvalue="TestNG.GlbSignUpTest.test" />
-        <item itemvalue="TestNG.FacebookLoginTest.bos" />
-        <item itemvalue="TestNG.FhcTripHotelRoomCreateTest.test01" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/belirligrupmethodlarinicalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/tumtestlericalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/belirlimethodcalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/belirliclasscalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/smoketestspaketicalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -183,38 +159,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="273" key="GridCell.Tab.0.bottom" timestamp="1600201083250">
+    <state width="1322" height="227" key="GridCell.Tab.0.bottom" timestamp="1600285962463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
+    <state width="1322" height="227" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600285962463" />
     <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
     <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
-    <state width="1322" height="273" key="GridCell.Tab.0.center" timestamp="1600201083250">
+    <state width="1322" height="227" key="GridCell.Tab.0.center" timestamp="1600285962463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="273" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
+    <state width="1322" height="227" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600285962463" />
     <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
     <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="273" key="GridCell.Tab.0.left" timestamp="1600201083249">
+    <state width="1322" height="227" key="GridCell.Tab.0.left" timestamp="1600285962462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="273" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083249" />
+    <state width="1322" height="227" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600285962462" />
     <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
     <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="273" key="GridCell.Tab.0.right" timestamp="1600201083250">
+    <state width="1322" height="227" key="GridCell.Tab.0.right" timestamp="1600285962463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="273" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600201083250" />
+    <state width="1322" height="227" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600285962463" />
     <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
     <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600195244942">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600214043422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600195244942" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600214043422" />
     <state x="1756" y="200" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600091464475" />
     <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599530286042" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">

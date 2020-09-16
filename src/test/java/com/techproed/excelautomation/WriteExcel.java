@@ -41,7 +41,7 @@ public class WriteExcel {
         //1. indexteki satırı silelim (Almanya satırını silelim)
         Row silmekIstedigimizSatir  = workbook.getSheetAt(0).getRow(1);
         workbook.getSheetAt(0).removeRow(silmekIstedigimizSatir);
-
+        
 
         // yaptığımız değişiklikleri excel dosyasına aktarır, veriyi yazar ve kaydeder.
         workbook.write(fileOutputStream);
