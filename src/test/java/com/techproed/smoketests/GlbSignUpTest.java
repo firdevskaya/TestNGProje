@@ -4,13 +4,22 @@ import com.techproed.pages.GlbSignUpPage;
 import com.techproed.utilities.ConfigurationReader;
 import com.techproed.utilities.Driver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class GlbSignUpTest {
 
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("beforeSuite çalıştı");
+    }
+
+    @BeforeTest
+    public void beforeTest(){
+        System.out.println("beforeTest çalıştı");
+    }
+
     @Test  ( groups = "glbtrader")
-    public void test(){
+    public void fhctrip(){
         /*
          * 1. Adım : https://www.glbtrader.com/register-2.html adresine gidelim
          * 2. Adım : GlbSignUpPage class'ından nesne üretip, webelementleri kullanalım.
