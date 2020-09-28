@@ -13,7 +13,7 @@ public class DependsOnMethodsTest {
     WebDriver driver;
     @BeforeClass
     public void setUp(){
-                WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

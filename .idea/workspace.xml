@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00056ff8-989d-4478-b701-1710c90b9685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/GlbTraderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/GlbTraderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/urunIsmiVeSayfaTitleKarsilastirmaTesti20200920112337.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/urunIsmiVeSayfaTitleKarsilastirmaTesti20200920112417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cross_browser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cross_browser_paralel1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paralel_test_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paralel_test_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/crossbrowsertests/NegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/crossbrowsertests/PositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/AmazonNewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/pages/FhcTripLoginNewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProvideTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/JSExecuterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/DriverCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/JSExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBaseCross.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/belirliclasscalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/belirliclasscalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoketestspaketicalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smoketestspaketicalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DependsOnMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/tests/DependsOnMethodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techproed/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techproed/utilities/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/benimraporum.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/benimraporum.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +70,10 @@
       <recent name="C:\Users\isimsiz\IdeaProjects\TestNGProje\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GlbTraderTest.urunIsmiVeSayfaTitleKarsilastirmaTesti">
-    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/belirliclasscalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JSExecuterTest">
+    <configuration name="C:/Users/isimsiz/IdeaProjects/TestNGProje/cross_browser_paralel1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/belirliclasscalistirma.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/cross_browser_paralel1.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -69,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlbTraderTest.urunIsmiVeSayfaTitleKarsilastirmaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProvideTest1.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.GlbTraderTest" />
-      <option name="METHOD_NAME" value="urunIsmiVeSayfaTitleKarsilastirmaTesti" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DataProvideTest1" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleAramaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderTest.amazonAramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +108,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.GoogleAramaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.DataProviderTest" />
+      <option name="METHOD_NAME" value="amazonAramaTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSExecuterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSExecuterTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -104,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleAramaTest.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecuterTest.amazonArama" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProje" />
       <extension name="coverage">
         <pattern>
@@ -113,26 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.GoogleAramaTest" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ornek_WebTable.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProje" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.Ornek_WebTable" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.tests.JSExecuterTest" />
+      <option name="METHOD_NAME" value="amazonArama" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GlbTraderTest.urunIsmiVeSayfaTitleKarsilastirmaTesti" />
-        <item itemvalue="TestNG.Ornek_WebTable.test" />
-        <item itemvalue="TestNG.GoogleAramaTest.aramaTesti" />
-        <item itemvalue="TestNG.GoogleAramaTest" />
-        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/belirliclasscalistirma.xml" />
+        <item itemvalue="TestNG.JSExecuterTest" />
+        <item itemvalue="TestNG.JSExecuterTest.amazonArama" />
+        <item itemvalue="TestNG.DataProvideTest1.loginTest" />
+        <item itemvalue="TestNG.DataProviderTest.amazonAramaTesti" />
+        <item itemvalue="TestNG.C:/Users/isimsiz/IdeaProjects/TestNGProje/cross_browser_paralel1.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +183,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599077889193" />
+    <state x="434" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601065442837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601065442837" />
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1599159970590">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -179,51 +195,51 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069265086" />
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom" timestamp="1600633665851">
+    <state width="1322" height="11" key="GridCell.Tab.0.bottom" timestamp="1601323025248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600633665851" />
+    <state width="1322" height="11" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601323025248" />
     <state width="1322" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
-    <state width="1322" height="404" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
-    <state width="1322" height="221" key="GridCell.Tab.0.center" timestamp="1600633665850">
+    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601001076968" />
+    <state width="1322" height="11" key="GridCell.Tab.0.center" timestamp="1601323025248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600633665850" />
+    <state width="1322" height="11" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601323025248" />
     <state width="1322" height="235" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
-    <state width="1322" height="404" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="221" key="GridCell.Tab.0.left" timestamp="1600633665850">
+    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601001076968" />
+    <state width="1322" height="11" key="GridCell.Tab.0.left" timestamp="1601323025248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600633665850" />
+    <state width="1322" height="11" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601323025248" />
     <state width="1322" height="235" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824724" />
-    <state width="1322" height="404" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599530438998" />
-    <state width="1322" height="221" key="GridCell.Tab.0.right" timestamp="1600633665850">
+    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601001076968" />
+    <state width="1322" height="11" key="GridCell.Tab.0.right" timestamp="1601323025248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600633665850" />
+    <state width="1322" height="11" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601323025248" />
     <state width="1322" height="235" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600031824725" />
-    <state width="1322" height="404" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599530438999" />
+    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601001076968" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1599069226582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069226582" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1600628701231">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1601301338356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600628701231" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601301338356" />
     <state x="1756" y="200" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1600091464475" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600440323968" />
-    <state x="65" y="67" key="new project wizard" timestamp="1600452500767">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600667065289" />
+    <state x="65" y="67" key="new project wizard" timestamp="1600710986943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="67" key="new project wizard/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600452500767" />
+    <state x="65" y="67" key="new project wizard/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600710986943" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1599069269670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069269670" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599069356986">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601315593391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1599069356986" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601315593391" />
   </component>
 </project>

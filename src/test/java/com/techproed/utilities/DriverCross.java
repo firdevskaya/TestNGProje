@@ -11,10 +11,10 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Driver {
+public class DriverCross {
     // Eğer bir class'tan NESNE ÜRETİLMESİNİ İSTEMİYORSANIZ
     // constructor'ı private yapabilirsiniz (Singleton Class)
-    private Driver(){ }
+    private DriverCross(){ }
 
     // WebDriver nesnemizi, static olarak oluşturduk, çünkü program başlar başlamaz
     // hafızada yer almasını istiyoruz.
@@ -24,12 +24,19 @@ public class Driver {
     // hafıza STATIC olarak oluşturulmuş DRIVER nesnesine erişebiliriz.
     // Yani yeniden WebDriver nesnesi oluşturmak zorunda değiliz.
     //Driver.getDriver()
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver(String browser){
         // Eğer driver nesnesi hafızada boşsa, oluşturulmamışsa yeniden oluşturmana gerek yok.
         // Eğer null ise, yeniden oluşturabilirsin.
         // Sadece ilk çağırıldığında bir tane nesne üret, sonraki çağırmalarda var olan nesnesi kullan.
+
+
+        // Eğer browser olarak gelen parametrenin değeri "null" ise, yani boş bir değer geldiyse
+        // o zaman güvenlik önlemi olarak, .properties dosyasından browser değerini al ve kullan
+        // eğer browser'in değeri null değilse hangisi geldiyse onu kullanabilirsiniz.
+        browser = browser == null ? ConfigurationReader.getProperty("browser") : browser ;
+
         if(driver == null){
-            switch (ConfigurationReader.getProperty("browser")){
+            switch (browser){
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();

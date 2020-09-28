@@ -5,7 +5,7 @@
         <packages>
             <!--  Çalıştırmak istediğimiz paketleri buraya yazabiliyoruz  -->
             <!--  CTRL + SHIFT + F10  -->
-            <package name="com.techproed.smoketests"></package>
+            <package name="com.techproed.tests"></package>
 
         </packages>
 
